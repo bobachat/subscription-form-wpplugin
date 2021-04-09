@@ -29,9 +29,9 @@ Every subscriber automatically joins your website's chat group. Now you can send
 
 Bobachat is Mailchimp for chat: A widget that helps you collect subscribers based on the chat apps they use, then easily broadcast messages.
 
-This plugin integrates your WordPress site with your Bobachat account.
+This plugin integrates your WordPress site with your <a href="https://admin.bobachat.app/" target="_blank" title="Bobachat">Bobachat</a> account.
 
-Creating a Bobachat account is free and takes less than a minute.
+<a href="https://admin.bobachat.app/signup" target="_blank" title="Creating a Bobachat account">Creating a Bobachat account</a> is free and takes less than a minute.
 
 = Live Demo =
 A live demo for Bobachat subscription forms plugin is available at <a href="https://demo.bobachat.app/" target="_blank" title="Bobachat’s demo site">Bobachat’s demo site</a>.
