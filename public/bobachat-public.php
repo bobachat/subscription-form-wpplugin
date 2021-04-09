@@ -97,9 +97,6 @@ class Bobachat_Public {
 		 */
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bobachat-public.js', array( 'jquery' ), $this->version, false );
-		if (wp_enqueue_script("jquery")){
-			wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
-		}
 	}
 	
 	public function add_bobachat_script_header() {
