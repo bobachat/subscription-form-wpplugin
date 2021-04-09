@@ -1,6 +1,6 @@
 <?php
 
-class DotEnv
+class Bobachat_Env
 {
     /**
      * The directory where the .env file can be located.

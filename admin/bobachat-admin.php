@@ -114,7 +114,7 @@ class Bobachat_Admin {
     }
 
 	public function initiate_api() {
-		(new DotEnv($this->env(BOBACHAT_ENV.'.env')))->load();
+		(new Bobachat_Env($this->env(BOBACHAT_ENV.'.env')))->load();
 		if (empty($this->bobachat_api)) {
 			$this->bobachat_api = new Bobachat_Api();
 		}
