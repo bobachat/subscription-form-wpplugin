@@ -27,7 +27,7 @@ class Bobachat_Deactivator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 */
 	public static function deactivate() {
 		delete_option('bobachat_uniq_key');

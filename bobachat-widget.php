@@ -9,13 +9,13 @@
  * that starts the plugin.
  *
  * @link              https://bobachat.app/
- * @since             0.0.1
+ * @since             1.0.0
  * @package           Bobachat-Widget
  *
  * @wordpress-plugin
  * Plugin Name:       Bobachat - Chat app marketing for Telegram
  * Description:       Allow your users to connect with you over Telegram, Whatsapp, and other chat apps. It's Mailchimp for chat.
- * Version:           0.0.1
+ * Version:           1.0.0
  * Author:            Bobachat
  * Author URI:        https://bobachat.app/
  * License:           GPL-2.0+
@@ -31,10 +31,10 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 0.0.1 and use SemVer - https://semver.org
+ * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'BOBACHAT_VERSION', '0.0.1' );
+define( 'BOBACHAT_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
@@ -70,7 +70,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/bobachat.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    0.0.1
+ * @since    1.0.0
  */
 function run_bobachat() {
 

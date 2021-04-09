@@ -25,7 +25,7 @@ class Bobachat_Admin {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
@@ -34,7 +34,7 @@ class Bobachat_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -43,7 +43,7 @@ class Bobachat_Admin {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 * @param      string    $plugin_name       The name of this plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -57,7 +57,7 @@ class Bobachat_Admin {
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 */
 	public function enqueue_styles() {
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bobachat-admin.css', array(), $this->version, 'all' );
@@ -67,7 +67,7 @@ class Bobachat_Admin {
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bobachat-admin.js', array( 'jquery' ), $this->version, false );
@@ -76,7 +76,7 @@ class Bobachat_Admin {
 	/**
 	 * Add our custom menu
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 */
 	public function my_admin_menu() {
 		add_menu_page( "Bobachat", 'Bobachat', 'manage_options', 'bobachat.php', array($this, 'myplugin_admin_page'), plugins_url( 'img/bobachat.png', __FILE__ ), 250);
@@ -102,7 +102,7 @@ class Bobachat_Admin {
 	/**
 	 * Register custom fields for plugin
 	 *
-	 * @since    0.0.1
+	 * @since    1.0.0
 	 */
 	public function register_subscription_form_setting() {
 		register_setting( 'bobachat_custom_setting', 'bobachat_uniq_key');
