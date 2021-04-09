@@ -105,6 +105,6 @@ class Bobachat_Public {
 			return;
 		}
 		$cdn = get_option('bobachat_subscriptionFormCdn');
-		echo wp_unslash('<script type="text/javascript" src="'.$cdn.'"></script>');
+		wp_enqueue_script( 'bobachatcdn', "$cdn", array('jquery'), '1.0.0', true );
 	}
 }
