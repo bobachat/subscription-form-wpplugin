@@ -71,8 +71,6 @@ class Bobachat_Admin {
 	 */
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bobachat-admin.js', array( 'jquery' ), $this->version, false );
-		wp_enqueue_script( 'bootstrap-js', plugin_dir_url( __FILE__ ) . 'js/bootstrap.min.js', array( 'jquery' ), $this->version, false );
-		wp_enqueue_script( 'bootstrap-bundle-js', plugin_dir_url( __FILE__ ) . 'js/bootstrap.bundle.min.js', array( 'jquery' ), $this->version, false );
 	}
 
 	/**

@@ -1,7 +1,5 @@
 <?php
   class Bobachat_Api {
-    protected $base_url = 'https://fpscg887e7.execute-api.us-east-1.amazonaws.com/staging/sfi/wordpress';
-    protected $get_url = 'https://fpscg887e7.execute-api.us-east-1.amazonaws.com/staging/sfi/wordpress/get';
     protected $headers = array('Content-Type' => 'application/json');
     protected $requestType = 'get';
     protected $boba_prefix;
